@@ -10,7 +10,7 @@
   --stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0,05);
   --surface-color-hover:  rgba( 0, 0, 0,0.02);
-  --highlight-color: (0, 0, 0, 0.1);
+  --highlight-color: rgba(255, 255, 255, 0.2);
   --switch-bg-url: url(./assets/moon-stars.svg);
 }
 
@@ -20,7 +20,7 @@
   --stroke-color: rgba(0, 0, 0, 0.5);
   --surface-color: rgba(0, 0, 0, 0.05);
   --surface-color-hover: rgba( 0, 0, 0,0.02);
-  --highlight-color:(255, 255, 255, 0.2);
+  --highlight-color:rgba(0, 0, 0, 0.1);
   --switch-bg-url: url(./assets/sun.svg);
 }
 
@@ -138,10 +138,7 @@ ul li a:hover {
 #social-links{
   display: flex;
   justify-content: center;
-  
-
   padding: 24px 0;
-
   font-size: 24px;
 }
 
@@ -178,7 +175,7 @@ footer {
 /*animation*/
 @keyframes slide-in {
   from {
-    left: 0;
+    left: 0%;
   }
   to {
     left: 50%;
@@ -191,6 +188,6 @@ footer {
     left: 50%;
   }
   to {
-    left: 0;
+    left: 0%;
   }
 }
